@@ -1,0 +1,6 @@
+replace/replaceAll - syntax edit to find and replace single or all values
+
+regular expression search should be bracketed by / -> /g_[a-r]{4}/
+
+syntax_editor_macro.list -> to view/edit/create new UI macros
+
