@@ -4,3 +4,40 @@ regular expression search should be bracketed by / -> /g_[a-r]{4}/
 
 syntax_editor_macro.list -> to view/edit/create new UI macros
 
+
+*searchString
+searchString%
+%searchString
+
+tablename.config -> configuration of the table
+
+tablename.do or tablename.form -> opens the form view of the table
+
+javascript: new IncidentCIrefQualbyCategory().getCIRefQual(current);
+
+
+JavaScript APIs:
+
+Client-Side:
+GlideAjax
+GlideForm
+GlideList
+GlideRecord
+GlideUser
+spModal
+
+
+Server Side:
+GlideAggregate(COUNT, MAX, MIN, AVG)
+GlideDateTime
+GlideElement
+GlideRecord
+GlideSystem
+GlideUser
+GlideQuery(new)
+
+ScriptInclude:
+
+Name - no spaces or special characters; it will not execute if it has spaces or special characters
+API name - scope.scriptname
+GlideAJAX Enabled - Client-side scripts callable
